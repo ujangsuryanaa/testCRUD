@@ -1,0 +1,4 @@
+npx sequelize-cli model:generate --name User --attributes name:string,password:string,email:string
+
+
+npx sequelize-cli model:generate --name Product --attributes namaBarang:string,stok:integer,jumlahTerjual:integer,tanggalTransaksi:string,jenisBarang:string
